@@ -1,0 +1,100 @@
+.Benefits{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 160px 128px 160px;
+    box-sizing: border-box;
+    .benefitsData{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+        div.span{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            padding: 48px 202px;
+            box-sizing: border-box;
+            .head{
+                font-family: Poppins;
+                font-size: 48px;
+                font-weight: 600;
+                text-align: center;
+            }
+        }
+        .up{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: start;
+            align-items: stretch;
+            gap: 32px;
+            .card{
+                background-color: var(--mainpalleteicy);
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: start;
+                align-items: start;
+                .icon{
+                    padding: 58px 0px 22px 48px;
+                    box-sizing: border-box;
+                    img{
+                        width: 32px;
+                    }
+                }
+                    span.big{
+                        font-family: Poppins;
+                        font-size: 24px;
+                        font-weight: 400;
+                        padding: 0px 0px 12px 48px;
+                        box-sizing: border-box;
+
+                    }
+                    span.small{
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 400;
+                        padding: 0px 30px 48px 48px;
+                        box-sizing: border-box;
+
+                    }
+                }
+            }
+            .logo{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: start;
+                align-items: center;
+                gap: 20px;
+                .left{
+                    width: 10%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0px 100px;
+                    box-sizing: border-box;
+                    span{
+                        font-family: Poppins;
+                        font-size: 38px;
+                        font-weight: 600;
+                    }
+                }
+                .right{
+                    width: 90%;
+                    height: 100%;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                }
+            }
+    }
+}

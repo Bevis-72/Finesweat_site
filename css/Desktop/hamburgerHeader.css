@@ -1,0 +1,12 @@
+.hamburgerBTN{
+    display: none !important;
+}
+label{
+    display: none !important;
+}
+.menu{
+    display: none !important;
+}
+header.header2{
+    display: none !important;
+}

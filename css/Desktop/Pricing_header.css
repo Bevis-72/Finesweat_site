@@ -1,0 +1,26 @@
+.pricing{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 128px;
+    box-sizing: border-box;
+
+    span.big{
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 600;
+        color: var(--mainpalletedarkblue);
+    }
+    span.small{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--mainpalletedarkblue);
+        opacity: .7;
+        padding: 0px 280px;
+
+    }
+}

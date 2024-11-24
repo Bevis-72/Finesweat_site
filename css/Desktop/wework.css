@@ -1,0 +1,73 @@
+/* .WeWork */
+/* .WeWork */
+/* .WeWork */
+
+.WeWork{
+    width: 100%;
+    background-color: var(--mainpalleteicy);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: start;
+    .left{
+        width: 50%;
+        padding: 128px 142px 349px 165px;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: start;
+        align-items: start;
+        .text{
+            .largefont > span{
+                font-family: Poppins;
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 64px;
+                text-align: left;
+                color: var(--mainpalletegray);
+            }
+            .meduimfont{
+                font-family: Poppins;
+                font-size: 15px;
+                font-weight: 400;
+                opacity: .7;
+                padding-top: 16px;
+                box-sizing: border-box;
+            }
+            .learnMore{
+                color: var(--mainpalleteblue);
+                font-family: "manrope";
+                padding-top: 16px;
+                box-sizing: border-box;
+                cursor: pointer;
+
+            }
+        }
+    }
+    .right{
+        width: 50%;
+        padding: 40px 232px 128px 0px;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+            .cardRight{
+                padding-top: 48px;
+                box-sizing: border-box;
+                .content{
+                    .strategy{
+                        font-family: Poppins;
+                        font-size: 32px;
+                        font-weight: 500;
+                        color: var(--mainpalletegray);
+                    }
+                    .lorem{
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 400;
+                }
+            }
+        }
+    }
+}
