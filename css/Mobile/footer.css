@@ -137,7 +137,7 @@ div.footer{
             font-weight: 500;
             .rightHome>a , .rightAbout_us>a , .rightFeatures>a , .rightPricing>a , .rightFAQ>a , .rightblog>a{
                 text-decoration: none;
-                color:  var(--mainpalletedarkblue);
+                color: var(--mainpalletedarkblue);
             }
         }
     }
